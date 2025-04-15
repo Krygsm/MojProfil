@@ -112,6 +112,10 @@ public class MainActivity extends AppCompatActivity
 
                         log("Profil zaktualizowany! Nowy email: " + emailField.getText().toString(), "green");
                     }
+                    else
+                    {
+                        log("Hasła się nie zgadzają", "red");
+                    }
                 })
                 .setNegativeButton("Anuluj", (dialog, which) ->
                 {
