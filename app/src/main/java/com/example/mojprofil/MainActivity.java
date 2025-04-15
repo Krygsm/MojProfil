@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity
                 msgField.setTextColor(Color.parseColor("#4CAF50"));
                 break;
             case "gray":
-                msgField.setTextColor(Color.parseColor("#00BCD4"));
+                msgField.setTextColor(Color.parseColor("#808080"));
                 break;
             case "red":
                 msgField.setTextColor(Color.parseColor("#FF3C3C"));
